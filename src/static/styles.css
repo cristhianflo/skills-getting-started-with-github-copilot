@@ -74,6 +74,78 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #eef3ff, #f8fbff);
+  border: 1px solid #d8e4ff;
+}
+
+.participants-section h5 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #1a237e;
+  letter-spacing: 0.2px;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #2b3d68;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid #dfe8ff;
+}
+
+.participant-item:last-child {
+  border-bottom: none;
+}
+
+.participant-email {
+  word-break: break-word;
+}
+
+.delete-participant-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: #ffe5e9;
+  color: #b00020;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.delete-participant-btn:hover {
+  background: #ffd0d8;
+  transform: scale(1.05);
+}
+
+.delete-participant-btn:focus-visible {
+  outline: 2px solid #b00020;
+  outline-offset: 2px;
+}
+
+.participants-empty {
+  font-style: italic;
+  color: #5f6f8f;
+  margin-bottom: 0;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
